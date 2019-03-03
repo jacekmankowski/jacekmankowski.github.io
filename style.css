@@ -129,6 +129,21 @@ img {
            height: 297mm;
 }
 
+.relative {
+  position: relative;
+}
+
+.resume-image {
+  position: absolute;
+  right: 0px;
+  background: white;
+  padding: 0px 20px 0px 10px;
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
 @page { size: A4;
         margin: 0;
 }
@@ -179,4 +194,19 @@ img {
     img {
         width: 120px;
     }
+    .relative {
+      position: relative;
+    }
+
+    
+  .resume-image {
+    position: absolute;
+    right: 0px;
+    background: white;
+    padding: 0px 20px 0px 10px;
+  }
+
+  .margin-top {
+    margin-top: 40px;
+  }
 }

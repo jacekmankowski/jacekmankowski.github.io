@@ -144,6 +144,18 @@ img {
   margin-top: 40px;
 }
 
+.special {
+  font-size: 14px;
+}
+
+.stack {
+  font-size: 15px;
+}
+
+.stack .list {
+  font-style: italic;
+}
+
 @page { size: A4;
         margin: 0;
 }
@@ -209,4 +221,17 @@ img {
   .margin-top {
     margin-top: 40px;
   }
+  
+.special {
+  font-size: 7pt;
+}
+
+.stack {
+  margin-top: 10px;
+  font-size: 8pt;
+}
+
+.stack .list {
+  font-style: italic;
+}
 }
